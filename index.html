@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+One&family=Raleway:wght@500&family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+    <title>music player</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="Brand">SPMusic</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Best hindi with english songs</h1>
+            <div class="songItem">
+                <img src="musicImage.jpg" alt="music">
+                <span class="songName">Sanam ho ja song</span>
+                <span class="songlistplay"><span class="timeItem">04:32</span><i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="musicImage.jpg" alt="music">
+                <span class="songName">Sanam ho ja song</span>
+                <span class="songlistplay"><span class="timeItem">04:32</span><i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="musicImage.jpg" alt="music">
+                <span class="songName">Sanam ho ja song</span>
+                <span class="songlistplay"><span class="timeItem">04:32</span><i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+            <div class="songItem">
+                <img src="musicImage.jpg" alt="music">
+                <span class="songName">Sanam ho ja song</span>
+                <span class="songlistplay"><span class="timeItem">04:32</span><i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span>
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+
+    </div>
+    
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- font awesome icons -->
+            <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-pause" id="masterPause"></i>
+            <i class="fa-solid fa-forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="Gif.webp" alt="Gif" id="gifid" width="40vh"> Sanam ho ja by arjun
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/d1e6d5d907.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
